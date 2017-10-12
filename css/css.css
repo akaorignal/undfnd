@@ -1,0 +1,256 @@
+
+
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+  background-color: black !important;
+
+}
+
+/* STRUCTURE */
+h1{
+  font-family: 'Lemon', cursive !important;
+
+}
+
+.title{
+  position: absolute;
+  top: -50px;
+  left: -90;
+  right:0;
+  bottom: 0;
+
+}
+#pagewrap {
+  padding: 5px;
+  width: 960px;
+  margin: 20px auto;
+}
+header {
+  height: 100px;
+  padding: 0 25px;
+}
+#content {
+  width: 950px;
+  float: left;
+  padding: 5px 15px;
+}
+
+#middle {
+  width: 950px; /* Account for margins + border values */
+  float: left;
+  padding: 5px 15px;
+  
+}
+
+#sidebar {
+  width: 950px;
+  padding: 5px 15px;
+  float: left;
+}
+footer {
+  clear: both;
+  padding: 0 15px;
+}
+
+/***********************
+STYLES
+*****************************/
+
+p {
+  font-family: tahoma;
+}
+
+.test{
+  width: 930px;
+}
+
+.content { height: 200px; }
+
+/*contactme*/
+.links { height:50px; width:50px; }
+
+img {
+  width: 180px;
+  height: 180px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px !important;
+  margin-top: 10px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+  
+  #pagewrap {
+    width: 94%;
+  }
+  #content {
+    float: left;
+    width: auto;
+    padding: 0% 4%;
+  }
+  #middle {
+    width: auto;
+    padding: 4% 4%;
+    margin: 0px 0px 5px 5px;
+    float: left;
+  }
+  
+  #sidebar {
+    clear: both;
+    padding: 1% 4%;
+    width: auto;
+    float: none;
+  }
+
+  header, footer {
+    padding: 1% 4%;
+  }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+  #content {
+    width: auto;
+    float: none;
+  }
+  
+  #middle {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+  }
+  
+  #sidebar {
+    width: auto;
+    float: none;
+  }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+  header {
+    height: auto;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  #sidebar {
+    display: none;
+  }
+
+}
+
+
+header {
+  background: white;
+}
+
+#content {
+  background: white;
+}
+
+#middle {
+  background: white;
+}
+#sidebar {
+  background: white;
+}
+
+
+
+header, #content, #middle, #sidebar {
+  margin-bottom: 5px;
+}
+
+  header, #content, #middle, #sidebar {
+  border: solid 3px #ccc;
+}
+
+
+/* header2 */
+.about
+{font-family: 'Rock Salt', cursive; color:darkviolet
+ !important;}
+
+/*--------------------------
+---------------------------*/
+#carousel-example-generic {
+  display: inline-block;
+}
+/*****************************/
+
+/* Plugin styles */
+ul.thumbnails-carousel {
+  padding: 5px 0 0 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+ul.thumbnails-carousel .center {
+  display: inline-block;
+}
+ul.thumbnails-carousel li {
+  margin-right: 5px;
+  float: left;
+  cursor: pointer;
+}
+.controls-background-reset {
+  background: none !important;
+}
+.active-thumbnail {
+  opacity: 0.4;
+}
+.indicators-fix {
+  bottom: 70px;
+}
+
+/*------------------
+-----------------------*/
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+
+/* ==============================*/
+* {margin:0;padding:0}
+li {list-style:none}
+.mainImg {width: 100%;display: inline-block;height: 426px;padding: 130px 0 0;overflow: hidden}
+.main_image {position:relative;width: 600px;height:300px;overflow:hidden}
+.container {position:relative;width:600px;}
+.main_image ul {position:absolute;width:99999px;left:0}
+.main_image ul li {float:left;width:600px}
+.main_image ul li div {position:relative;width:600px}
+.main_image ul li .txt {margin:0 auto;width:300px;font-size:12px;line-height:24px;padding-top:30px}
+.main_image ul li .txt strong{display:block;font-size:16px}
+.main_image ul li div span {position:absolute;display:block;width:600px;height:300px;top:0;left:0;overflow:hidden;}
+.controller {width:100%}
+.controller .all {width:600px;}
+.control_right {float:right; margin-top: 10px;}
+.autoSlideButton {display:block;width:20px;height:20px;margin-right:2px;border:0 none;background:none;background:url("http://www.somsommi.com/img/bg_gnb_set.png") -33px 0 no-repeat;float:left;cursor:pointer}
+.pasingDot {width:68px;margin-top:2px;float:left}
+.pasingDot li {float:left;cursor:pointer;width:16px;height:16px;background:url("http://www.somsommi.com/img/bg_gnb_set.png") 0 0 no-repeat}
+.pasingDot li button {width:16px;height:16px;border:0 none;background:none;cursor:pointer}
